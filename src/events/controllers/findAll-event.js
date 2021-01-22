@@ -1,5 +1,5 @@
-export default function makeFindAllCompany ({ findAllEvent }) {
-  return async function FindAllCompany(_, res) {
+export default function makeFindAllEvent ({ findAllEvent }) {
+  return async function FindAllEvent(_, res) {
     try {
       const allEvent = await findAllEvent()
 
